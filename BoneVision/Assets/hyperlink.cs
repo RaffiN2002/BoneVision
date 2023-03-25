@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class hyperlink : MonoBehaviour
 {
     public void toAR(){
-        SceneManager.LoadScene("AR");
+        SceneManager.LoadScene("ARMenu");
     }
 
     public void exitButton(){
