@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="markiSpine" size="1.000000 1.409677" />
+    <ImageTarget name="pelviMark" size="1.000000 1.409677" />
+    <ImageTarget name="arMarker" size="1.000000 1.409677" />
+    <ImageTarget name="legMarker" size="1.000000 1.409677" />
+    <ImageTarget name="markeRib" size="1.000000 1.409677" />
+    <ImageTarget name="skullMarker" size="1.000000 1.409677" />
+  </Tracking>
+</QCARConfig>
