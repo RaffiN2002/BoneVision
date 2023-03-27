@@ -16,7 +16,7 @@ public class button_mng3 : MonoBehaviour
     public GameObject radius_text;
     public GameObject ulna_text;
 
-    void start(){
+    void Start(){
         carpal_text.SetActive(false);
         metacarpal_text.SetActive(false);
         phalanges_text.SetActive(false);
@@ -27,35 +27,35 @@ public class button_mng3 : MonoBehaviour
     public void info1(){
         if(carpal_text != null){
             bool isActive = carpal_text.activeSelf;
-            carpal_text.SetActive(isActive);
+            carpal_text.SetActive(!isActive);
         }
     }
 
     public void info2(){
         if(metacarpal_text != null){
             bool isActive = metacarpal_text.activeSelf;
-            metacarpal_text.SetActive(isActive);
+            metacarpal_text.SetActive(!isActive);
         }
     }
 
     public void info3(){
         if(phalanges_text != null){
             bool isActive = phalanges_text.activeSelf;
-            phalanges_text.SetActive(isActive);
+            phalanges_text.SetActive(!isActive);
         }
     }
 
     public void info4(){
         if(radius_text != null){
             bool isActive = radius_text.activeSelf;
-            radius_text.SetActive(isActive);
+            radius_text.SetActive(!isActive);
         }
     }
 
     public void info5(){
         if(ulna_text != null){
             bool isActive = ulna_text.activeSelf;
-            ulna_text.SetActive(isActive);
+            ulna_text.SetActive(!isActive);
         }
     }
 

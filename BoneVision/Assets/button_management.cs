@@ -18,7 +18,7 @@ public class button_management : MonoBehaviour
     public GameObject sphenoid_text;
     public GameObject zygomatic_text;
 
-    void start(){
+    void Start(){
         frontal_text.SetActive(false);
         parietal_text.SetActive(false);
         temporal_text.SetActive(false);
@@ -30,42 +30,42 @@ public class button_management : MonoBehaviour
     public void info1(){
         if(frontal_text != null){
             bool isActive = frontal_text.activeSelf;
-            frontal_text.SetActive(isActive);
+            frontal_text.SetActive(!isActive);
         }
     }
 
     public void info2(){
         if(parietal_text != null){
             bool isActive = parietal_text.activeSelf;
-            parietal_text.SetActive(isActive);
+            parietal_text.SetActive(!isActive);
         }
     }
 
     public void info3(){
         if(temporal_text != null){
             bool isActive = temporal_text.activeSelf;
-            temporal_text.SetActive(isActive);
+            temporal_text.SetActive(!isActive);
         }
     }
 
     public void info4(){
         if(ocipital_text != null){
             bool isActive = ocipital_text.activeSelf;
-            ocipital_text.SetActive(isActive);
+            ocipital_text.SetActive(!isActive);
         }
     }
 
     public void info5(){
         if(sphenoid_text != null){
             bool isActive = sphenoid_text.activeSelf;
-            sphenoid_text.SetActive(isActive);
+            sphenoid_text.SetActive(!isActive);
         }
     }
 
     public void info6(){
         if(zygomatic_text != null){
             bool isActive = zygomatic_text.activeSelf;
-            zygomatic_text.SetActive(isActive);
+            zygomatic_text.SetActive(!isActive);
         }
     }
 

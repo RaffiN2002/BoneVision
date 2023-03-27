@@ -16,7 +16,7 @@ public class button_mng2 : MonoBehaviour
     public GameObject sternum_text;
     public GameObject scapula_text;
 
-    void start(){
+    void Start(){
         truerib_text.SetActive(false);
         falserib_text.SetActive(false);
         floatingrib_text.SetActive(false);
@@ -27,35 +27,35 @@ public class button_mng2 : MonoBehaviour
     public void info1(){
         if(truerib_text != null){
             bool isActive = truerib_text.activeSelf;
-            truerib_text.SetActive(isActive);
+            truerib_text.SetActive(!isActive);
         }
     }
 
     public void info2(){
         if(falserib_text != null){
             bool isActive = falserib_text.activeSelf;
-            falserib_text.SetActive(isActive);
+            falserib_text.SetActive(!isActive);
         }
     }
 
     public void info3(){
         if(floatingrib_text != null){
             bool isActive = floatingrib_text.activeSelf;
-            floatingrib_text.SetActive(isActive);
+            floatingrib_text.SetActive(!isActive);
         }
     }
 
     public void info4(){
         if(sternum_text != null){
             bool isActive = sternum_text.activeSelf;
-            sternum_text.SetActive(isActive);
+            sternum_text.SetActive(!isActive);
         }
     }
 
     public void info5(){
         if(scapula_text != null){
             bool isActive = scapula_text.activeSelf;
-            scapula_text.SetActive(isActive);
+            scapula_text.SetActive(!isActive);
         }
     }
 
