@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class button_mng2 : MonoBehaviour
 {
@@ -74,5 +75,9 @@ public class button_mng2 : MonoBehaviour
         FloatingRibs.SetActive(false);
         Sternum.SetActive(false);
         Scapula.SetActive(false);
+    }
+
+    public void back(){
+        SceneManager.LoadScene("ARMenu");
     }
 }

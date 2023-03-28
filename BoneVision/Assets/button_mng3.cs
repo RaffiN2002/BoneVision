@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class button_mng3 : MonoBehaviour
 {
@@ -74,5 +75,9 @@ public class button_mng3 : MonoBehaviour
         Phalanges.SetActive(false);
         Radius.SetActive(false);
         Ulna.SetActive(false);
+    }
+
+    public void back(){
+        SceneManager.LoadScene("ARMenu");
     }
 }

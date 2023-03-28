@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class button_mng5 : MonoBehaviour
 {
@@ -49,5 +50,9 @@ public class button_mng5 : MonoBehaviour
         Ilium.SetActive(false);
         Ischium.SetActive(false);
         Pubis.SetActive(false);
+    }
+
+    public void back(){
+        SceneManager.LoadScene("ARMenu");
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class button_management : MonoBehaviour
 {
@@ -85,5 +86,9 @@ public class button_management : MonoBehaviour
         Ocipital.SetActive(false);
         Sphenoid.SetActive(false);
         Zygomatic.SetActive(false);
+    }
+
+    public void back(){
+        SceneManager.LoadScene("ARMenu");
     }
 }

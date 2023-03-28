@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class button_mng6 : MonoBehaviour
 {
@@ -74,5 +75,9 @@ public class button_mng6 : MonoBehaviour
         LumbarSpine.SetActive(false);
         Sacrum.SetActive(false);
         Coccyx.SetActive(false);
+    }
+
+    public void back(){
+        SceneManager.LoadScene("ARMenu");
     }
 }

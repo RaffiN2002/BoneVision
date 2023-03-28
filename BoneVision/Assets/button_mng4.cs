@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class button_mng4 : MonoBehaviour
 {
@@ -85,5 +86,9 @@ public class button_mng4 : MonoBehaviour
         Fibula.SetActive(false);
         Tarsal.SetActive(false);
         Metatarsal.SetActive(false);
+    }
+
+    public void back(){
+        SceneManager.LoadScene("ARMenu");
     }
 }
